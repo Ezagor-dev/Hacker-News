@@ -15,10 +15,11 @@
 		E68E2AC92A2A1F0C004992D5 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68E2AC82A2A1F0C004992D5 /* PostData.swift */; };
 		E68E2ACC2A2A24C9004992D5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68E2ACB2A2A24C9004992D5 /* DetailView.swift */; };
 		E68E2ACE2A2A29FA004992D5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68E2ACD2A2A29FA004992D5 /* WebView.swift */; };
+		E68E2AD02A2A2F51004992D5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68E2ACF2A2A2F51004992D5 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E68E2AB42A2A0F72004992D5 /* Hacker News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68E2AB42A2A0F72004992D5 /* H4ck3r N3ws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4ck3r N3ws.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68E2AB72A2A0F72004992D5 /* Hacker_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacker_NewsApp.swift; sourceTree = "<group>"; };
 		E68E2AB92A2A0F72004992D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E68E2ABB2A2A0F74004992D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,6 +28,7 @@
 		E68E2AC82A2A1F0C004992D5 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		E68E2ACB2A2A24C9004992D5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		E68E2ACD2A2A29FA004992D5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E68E2ACF2A2A2F51004992D5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,7 @@
 		E68E2AB52A2A0F72004992D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E68E2AB42A2A0F72004992D5 /* Hacker News.app */,
+				E68E2AB42A2A0F72004992D5 /* H4ck3r N3ws.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +93,7 @@
 				E68E2AB92A2A0F72004992D5 /* ContentView.swift */,
 				E68E2ACB2A2A24C9004992D5 /* DetailView.swift */,
 				E68E2ACD2A2A29FA004992D5 /* WebView.swift */,
+				E68E2ACF2A2A2F51004992D5 /* Launch Screen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -98,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E68E2AB32A2A0F72004992D5 /* Hacker News */ = {
+		E68E2AB32A2A0F72004992D5 /* H4ck3r N3ws */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E68E2AC22A2A0F74004992D5 /* Build configuration list for PBXNativeTarget "Hacker News" */;
+			buildConfigurationList = E68E2AC22A2A0F74004992D5 /* Build configuration list for PBXNativeTarget "H4ck3r N3ws" */;
 			buildPhases = (
 				E68E2AB02A2A0F72004992D5 /* Sources */,
 				E68E2AB12A2A0F72004992D5 /* Frameworks */,
@@ -110,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = "Hacker News";
+			name = "H4ck3r N3ws";
 			productName = "Hacker News";
-			productReference = E68E2AB42A2A0F72004992D5 /* Hacker News.app */;
+			productReference = E68E2AB42A2A0F72004992D5 /* H4ck3r N3ws.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E68E2AAF2A2A0F72004992D5 /* Build configuration list for PBXProject "Hacker News" */;
+			buildConfigurationList = E68E2AAF2A2A0F72004992D5 /* Build configuration list for PBXProject "H4ck3r N3ws" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E68E2AB32A2A0F72004992D5 /* Hacker News */,
+				E68E2AB32A2A0F72004992D5 /* H4ck3r N3ws */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E68E2AD02A2A2F51004992D5 /* Launch Screen.storyboard in Resources */,
 				E68E2ABF2A2A0F74004992D5 /* Preview Assets.xcassets in Resources */,
 				E68E2ABC2A2A0F74004992D5 /* Assets.xcassets in Resources */,
 			);
@@ -302,9 +306,11 @@
 				DEVELOPMENT_TEAM = Q6BH8KCYLZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "H4ck3r N3ws";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -331,9 +337,11 @@
 				DEVELOPMENT_TEAM = Q6BH8KCYLZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "H4ck3r N3ws";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -352,7 +360,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E68E2AAF2A2A0F72004992D5 /* Build configuration list for PBXProject "Hacker News" */ = {
+		E68E2AAF2A2A0F72004992D5 /* Build configuration list for PBXProject "H4ck3r N3ws" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E68E2AC02A2A0F74004992D5 /* Debug */,
@@ -361,7 +369,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E68E2AC22A2A0F74004992D5 /* Build configuration list for PBXNativeTarget "Hacker News" */ = {
+		E68E2AC22A2A0F74004992D5 /* Build configuration list for PBXNativeTarget "H4ck3r N3ws" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E68E2AC32A2A0F74004992D5 /* Debug */,
